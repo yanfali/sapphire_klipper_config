@@ -1,0 +1,2 @@
+## "/bin/echo RESTART > /tmp/printer" not working, so using the symlink destination instead -> works!
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="614e", ACTION=="add", RUN+="/bin/sh -c '/bin/echo RESTART > /dev/pts/0'"
