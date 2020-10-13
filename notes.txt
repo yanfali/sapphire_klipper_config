@@ -1,0 +1,4 @@
+#1 default 80%, he 215c, bridging 100
+#2 default 80%, he 210c, bridging 100, run fan at default speed when possible enabled
+#3 default 35%, he 210c, bridging 100, run fan at default - stopped early
+#4 default 35%, short layer 60%, he 210c, bridging 100, run fan at default
