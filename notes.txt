@@ -2,3 +2,23 @@
 #2 default 80%, he 210c, bridging 100, run fan at default speed when possible enabled
 #3 default 35%, he 210c, bridging 100, run fan at default - stopped early
 #4 default 35%, short layer 60%, he 210c, bridging 100, run fan at default
+
+Benchy run 10/24/2020
+Cyan Jessie PLA
+#1 0.32, pa on, 60mm/s
+#2 pa off, tightened up BMG screw, retractions 60mm/s
+#3 pa on, turned down voltage to 0.8 rms on x and y
+#4 adjust e accelerations in slicer to 1500
+#5 turned down x y acceleration to 1000
+#6 increased rms to extruder to 85%
+#7 try printing at a different layer height 0.24 - hypothesis it can't keep up with volume which doesn't make much sense
+#8 move the gear on the extruder stepper - 1.5mm away from collar
+#9 up flow by 5% the flow test seems to indicate - slightly underextruded at 100%
+#10 up flow by 10% 
+
+TODO
+
+- decrease RMS back to 80%
+- turn accelerations back up
+- run retractions test
+
